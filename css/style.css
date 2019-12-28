@@ -9,11 +9,37 @@ body {
   height: 2000px;
 }
 
+.container {
+  width: 1000px;
+  margin: auto;
+  background: green;
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navbar {
   width: 100%;
-  height: 90px;
+  height: 80px;
   background-color: red;
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.navbar .d-flex img {
+  height: 34px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
