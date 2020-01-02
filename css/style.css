@@ -8,13 +8,17 @@ body {
   background-color: #222525;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  padding-top: 80px;
 }
 
 .container {
   width: 1000px;
   margin: auto;
-  background: #222525;
   height: 100%;
+}
+
+.grey-bg {
+  background: #222525;
 }
 
 .d-flex {
@@ -23,6 +27,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+/* header */
+/* navbar */
 
 .navbar {
   width: 100%;
@@ -60,7 +67,7 @@ nav ul li a i {
   border: 2px solid #A1DE41;
   padding: 5px 9px;
   border-radius: 2px;
-  color: #A1DE41;
+  color: #CDD8BC;
 }
 
 .margin-l-btn {
@@ -72,4 +79,35 @@ nav ul li a i {
   padding: 5px 9px;
   border-radius: 2px;
   color: #CDD8BC;
+}
+
+/* main header */
+
+h1 {
+  text-transform: capitalize;
+  color: #FFF;
+  text-align: center;
+  margin-top: 65px;
+  font-size: 40px;
+}
+
+
+.header-text p {
+  text-align: center;
+  font-size: 17px;
+  width: 845px;
+  margin: 15px auto;
+  color: #84949A;
+  line-height: 25px;
+}
+
+.header-text .center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.header-text .green-btn {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 15px 40px;
 }
