@@ -144,3 +144,67 @@ h1 {
 .d-flex-logos img {
   height: 40px;
 }
+
+/* main */
+/* quick-learn */
+
+.quick-learn {
+  background-color: #FFF;
+  font-size: 17px;
+  line-height: 25px;
+  color: #697782;
+  padding: 100px 0;
+}
+
+.d-flex-q-l {
+  display: flex;
+  align-items: center;
+}
+
+.flex-sub-title {
+  display: flex;
+  align-items: center;
+}
+
+.q-l-text .sub-title {
+  font-size: 14px;
+  color: #7A8B91;
+}
+
+.sub-title img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.q-l-text h2 {
+  font-size: 30px;
+  color: #3B4447;
+  margin-top: 20px;
+}
+
+.divide {
+  height: 4px;
+  width: 30px;
+  background-color: #F1F6F8;
+  border: 1px solid #C8DCE2;
+  border-radius: 5px;
+  margin: 23px 0 20px;
+}
+
+.tutorial-btn {
+  border-bottom: 2px solid rgba(36, 193, 237, 0.6);
+  display: inline-block;
+}
+
+.quick-learn a {
+  color: #24C1ED;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.quick-learn a i {
+  font-size: 8px;
+}
