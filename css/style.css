@@ -11,8 +11,14 @@ body {
   padding-top: 80px;
 }
 
-.container {
+.container-1000 {
   width: 1000px;
+  margin: auto;
+  height: 100%;
+}
+
+.container-1320 {
+  width: 1320px;
   margin: auto;
   height: 100%;
 }
@@ -83,6 +89,11 @@ nav ul li a i {
 
 /* main header */
 
+.main-header {
+  background: rgb(34,37,37);
+  background: linear-gradient(180deg, rgba(34,37,37,1) 75%, rgba(44,48,48,1) 100%);
+}
+
 h1 {
   text-transform: capitalize;
   color: #FFF;
@@ -90,7 +101,6 @@ h1 {
   margin-top: 65px;
   font-size: 40px;
 }
-
 
 .header-text p {
   text-align: center;
@@ -110,4 +120,27 @@ h1 {
   text-decoration: none;
   text-transform: capitalize;
   padding: 15px 40px;
+}
+
+.jumbo-img {
+  margin-top: 90px;
+  margin-bottom: -5px;
+}
+
+/* loghi header */
+
+.header-logos {
+  background-color: #FFF;
+  height: 78px;
+  border-bottom: 1px solid #E2E9ED;
+}
+
+.d-flex-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex-logos img {
+  height: 40px;
 }
