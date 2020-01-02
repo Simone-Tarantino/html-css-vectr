@@ -5,14 +5,15 @@
 }
 
 body {
-  background-color: blue;
-  height: 2000px;
+  background-color: #222525;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 
 .container {
   width: 1000px;
   margin: auto;
-  background: green;
+  background: #222525;
   height: 100%;
 }
 
@@ -26,20 +27,49 @@ body {
 .navbar {
   width: 100%;
   height: 80px;
-  background-color: red;
+  background-color: #222525;
   position: fixed;
   top: 0;
   left: 0;
+  border-bottom: 1px solid #293031;
 }
 
 .navbar .d-flex img {
   height: 34px;
 }
 
+nav ul {
+  display: flex;
+}
+
 nav ul li {
   list-style: none;
+  margin-right: 13px;
 }
 
 nav ul li a {
   text-decoration: none;
+  color: #536970;
+}
+
+nav ul li a i {
+  font-size: 8px;
+}
+
+.green-btn {
+  border: 2px solid #A1DE41;
+  padding: 5px 9px;
+  border-radius: 2px;
+  color: #A1DE41;
+}
+
+.margin-l-btn {
+  margin-left: 5px;
+}
+
+.grey-btn {
+  border: 2px solid #3F4D4E;
+  padding: 5px 9px;
+  border-radius: 2px;
+  color: #CDD8BC;
 }
