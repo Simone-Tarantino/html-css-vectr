@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #222525;
+  background-color: #242728;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   padding-top: 80px;
@@ -90,8 +90,8 @@ nav ul li a i {
 /* main header */
 
 .main-header {
-  background: rgb(34,37,37);
-  background: linear-gradient(180deg, rgba(34,37,37,1) 75%, rgba(44,48,48,1) 100%);
+  background: rgb(36,39,40);
+  background: linear-gradient(180deg, rgba(36,39,40,1) 60%, rgba(48,52,52,1) 100%); 
 }
 
 h1 {
@@ -156,7 +156,7 @@ h1 {
   padding: 100px 0;
 }
 
-.d-flex-q-l {
+.d-flex-main {
   display: flex;
   align-items: center;
 }
@@ -166,7 +166,7 @@ h1 {
   align-items: center;
 }
 
-.q-l-text .sub-title {
+.sub-title {
   font-size: 14px;
   color: #7A8B91;
 }
@@ -185,10 +185,13 @@ h1 {
 .divide {
   height: 4px;
   width: 30px;
-  background-color: #F1F6F8;
-  border: 1px solid #C8DCE2;
   border-radius: 5px;
   margin: 23px 0 20px;
+}
+
+.d-color-l-grey {
+  background-color: #F1F6F8;
+  border: 1px solid #C8DCE2;
 }
 
 .tutorial-btn {
@@ -207,4 +210,55 @@ h1 {
 
 .quick-learn a i {
   font-size: 8px;
+}
+
+/* sezione url */
+
+.url {
+  font-size: 17px;
+  line-height: 25px;
+  color: #84949A;
+}
+
+.url .container-1320 .url-text .sub-title {
+  color: #A1ABB0;
+}
+
+.url-text {
+  padding: 305px 0;
+  width: 50%;
+}
+
+.url-text h2 {
+  font-size: 30px;
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.url-main-text {
+  width: 625px;
+}
+
+.d-color-d-grey {
+  background-color: #495154;
+  border: 1px solid #6F7B7F;
+}
+
+.url-img {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.url-img img {
+  position: absolute;
+  top: 58px;
+}
+
+/* sezione scale */
+
+.scale {
+  height: 500px;
+  width: 100%;
+  background-color: #FFF;
 }
