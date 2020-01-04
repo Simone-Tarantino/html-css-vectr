@@ -45,6 +45,7 @@ body {
   top: 0;
   left: 0;
   border-bottom: 1px solid #293031;
+  z-index: 3;
 }
 
 .navbar .d-flex img {
@@ -91,7 +92,7 @@ nav ul li a i {
 
 .main-header {
   background: rgb(36,39,40);
-  background: linear-gradient(180deg, rgba(36,39,40,1) 60%, rgba(48,52,52,1) 100%); 
+  background: linear-gradient(180deg, rgba(36,39,40,1) 60%, rgba(48,52,52,1) 100%);
 }
 
 h1 {
@@ -253,12 +254,68 @@ h1 {
 .url-img img {
   position: absolute;
   top: 58px;
+  z-index: 0;
 }
 
 /* sezione scale */
 
-.scale {
+.vector {
+  background-color: #FFF;
+  font-size: 17px;
+  line-height: 25px;
+  color: #697782;
+  border-bottom: 1px solid black;
+}
+
+.vector-text {
+  width: 50%;
+  padding: 290px 0;
+}
+
+.vector-text h2 {
+  font-size: 30px;
+  color: #3B4447;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+.vector a {
+  color: #24C1ED;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.vector a i {
+  font-size: 8px;
+}
+
+.vector-img {
+  width: 50%;
+  position: relative;
+}
+
+.first-vector-img,
+.second-vector-img {
+  position: absolute;
+  display: inline-block;
+  height: 400px;
+}
+
+.first-vector-img {
+  top: 109px;
+}
+
+.second-vector-img {
+  left: 339px;
+  top: 109px;
+}
+
+/* free-cross section */
+
+.free-cross {
   height: 500px;
-  width: 100%;
   background-color: #FFF;
 }
