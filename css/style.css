@@ -23,6 +23,12 @@ body {
   height: 100%;
 }
 
+.container-1520 {
+  width: 1520px;
+  margin: auto;
+  height: 100%;
+}
+
 .grey-bg {
   background: #222525;
 }
@@ -264,7 +270,7 @@ h1 {
   font-size: 17px;
   line-height: 25px;
   color: #697782;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #E2E9ED;
 }
 
 .vector-text {
@@ -316,6 +322,37 @@ h1 {
 /* free-cross section */
 
 .free-cross {
-  height: 500px;
   background-color: #FFF;
+  font-size: 17px;
+  line-height: 25px;
+  color: #697782;
+  border-bottom: 3px solid #556EFE;
+}
+
+.free-div,
+.cross-div {
+  width: 50%;
+  border-right: 1px solid #E2E9ED;
+  text-align: center;
+  padding: 130px 0;
+}
+
+.free-div {
+  padding-right: 50px;
+}
+
+.cross-div {
+  padding: 0 50px;
+}
+
+.free-div h2,
+.cross-div h2 {
+  padding: 40px 0 20px 0;
+  color: #3B4447;
+}
+
+/* footer */
+
+.black-bot-div {
+  height: 500px;
 }
